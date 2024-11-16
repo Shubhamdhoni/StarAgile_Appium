@@ -15,7 +15,7 @@ public class ClockTest {
 	private AppiumDriver driver;
 	
 	@BeforeTest
-	public void detUp() throws Throwable {
+	public void setUp() throws Throwable {
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setAppPackage("com.google.android.deskclock");
@@ -25,7 +25,7 @@ public class ClockTest {
 		driver = new AndroidDriver(new URL(" http://172.26.64.1:4723/"),options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
-	@Test
+	@Test	
 	public void sampleTest() {
 		System.out.println("Clock session ID :"+ driver.getSessionId());
 		driver.findElement(AppiumBy.id("com.google.android.deskclock:id/fab")).click();

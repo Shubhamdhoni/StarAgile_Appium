@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-10T11:40:55 IST" name="Default suite" finished-at="2024-11-10T11:41:21 IST" duration-ms="25909">
+  <suite started-at="2024-11-15T10:27:58 IST" name="Default suite" finished-at="2024-11-15T10:28:45 IST" duration-ms="46671">
     <groups>
     </groups>
-    <test started-at="2024-11-10T11:40:55 IST" name="Default test" finished-at="2024-11-10T11:41:21 IST" duration-ms="25909">
-      <class name="Demo.StarAgile_Appium.ClockTest">
-        <test-method is-config="true" signature="detUp()[pri:0, instance:Demo.StarAgile_Appium.ClockTest@2af004b]" started-at="2024-11-10T11:40:55 IST" name="detUp" finished-at="2024-11-10T11:41:11 IST" duration-ms="16358" status="PASS">
+    <test started-at="2024-11-15T10:27:58 IST" name="Default test" finished-at="2024-11-15T10:28:45 IST" duration-ms="46671">
+      <class name="Demo.StarAgile_Appium.Assignment2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Demo.StarAgile_Appium.Assignment2@d737b89]" started-at="2024-11-15T10:27:58 IST" name="setUp" finished-at="2024-11-15T10:28:34 IST" duration-ms="36049" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- detUp -->
-        <test-method signature="sampleTest()[pri:0, instance:Demo.StarAgile_Appium.ClockTest@2af004b]" started-at="2024-11-10T11:41:12 IST" name="sampleTest" finished-at="2024-11-10T11:41:21 IST" duration-ms="9421" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="backgroundAndForegroundTest()[pri:0, instance:Demo.StarAgile_Appium.Assignment2@d737b89]" started-at="2024-11-15T10:28:35 IST" name="backgroundAndForegroundTest" description="Send app to background and verify its state" finished-at="2024-11-15T10:28:43 IST" duration-ms="8476" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-      </class> <!-- Demo.StarAgile_Appium.ClockTest -->
+        </test-method> <!-- backgroundAndForegroundTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.StarAgile_Appium.Assignment2@d737b89]" started-at="2024-11-15T10:28:43 IST" name="tearDown" finished-at="2024-11-15T10:28:45 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo.StarAgile_Appium.Assignment2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
